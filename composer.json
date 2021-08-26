@@ -1,0 +1,27 @@
+{
+  "name": "guangdatech/sendcloud",
+  "description": "The Sendcloud Client",
+  "license": "MIT",
+  "homepage": "https://www.guangdawangluo.com",
+  "support": {
+    "issues": "https://github.com/guangdatech/sendcloud/issues",
+    "source": "https://github.com/guangdatech/sendcloud"
+  },
+  "authors": [
+    {
+      "name": "Edward Yang",
+      "email": "yangjin@opencart.cn"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "guzzlehttp/guzzle": "^6.0|^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Guangda\\SendCloud": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
