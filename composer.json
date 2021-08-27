@@ -1,6 +1,6 @@
 {
-  "name": "guangdatech/sendcloud",
-  "description": "The Sendcloud Client",
+  "name": "guangda/sendcloud",
+  "description": "The SendCloud Client",
   "license": "MIT",
   "homepage": "https://www.guangdawangluo.com",
   "support": {
@@ -19,7 +19,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Guangda\\SendCloud": "src/"
+      "Guangda\\SendCloud\\": "src/"
     }
   },
   "minimum-stability": "dev",
